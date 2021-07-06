@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(180deg,hsla(0,0%,100%,.1),#fff);
+}
+
+.App {
+  margin: 0 auto;
+  width: 420px;
+}
+
+.App-subtitulo {
+  font-size: 2.5rem;
+  color: #000;
+  outline: none;
+  margin: 3rem auto;
+}
+
+/* Página Not Found */
+
+.not-found-titulo {
+  font-size: 5rem;
+}
+
+.not-found-p {
+  font-size: 2rem;
+}
+
+
+
+
+

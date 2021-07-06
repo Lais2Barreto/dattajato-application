@@ -1,0 +1,49 @@
+/* Responsividade */
+
+@media screen and (min-width: 536px) and (max-width: 570px) {
+  .HomeSobre h2 {
+    margin: 2rem 2rem;
+  }
+
+  .Mapa-principal > p {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 630px) {
+  .HomeSobre h3 {
+    margin: 0 2rem;
+  }
+} 
+@media screen and (max-width: 768px) {
+  #lavagem1 {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .HomeSobre-principal > p {
+    width: 80%;
+    text-align: justify;
+  }
+
+  .Mapa-principal > p {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1110px) {
+  #lavagem1 {
+    width: 60%;
+    margin: 2rem auto;
+  }
+
+  .HomeSobre-principal > p {
+    width: 60%;
+    text-align: justify;
+  }
+} 

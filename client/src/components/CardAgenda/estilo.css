@@ -1,0 +1,111 @@
+
+.lista-agendamentos {
+  width: 100%;
+  min-height: 50vh;
+  margin: 10px auto;
+}
+
+.lista-agendamentos-itens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  box-shadow: 0 0 6px rgba(0,0,0, 0.3);
+  margin: 30px;
+  padding: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.lista-agendamentos-itens:hover {
+  transform: scale(1.1);
+}
+
+.App-sub-subtitulo {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.card-agenda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 5%;
+  border-radius: 4px;
+  background-color:rgb(192, 33, 33);
+  color: #fff;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.card-agenda_cabecalho {
+  color: #000;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-agenda_cabecalho:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.card-agenda_texto {
+  margin-top: 0px;
+  font-size: 1em;
+}
+
+.card-agenda_texto:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.card-agenda_titulo {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+/* Responsividade */
+
+@media screen and (min-width: 280px) and (max-width: 500px) {
+  .lista-agendamentos {
+    width: 80%;
+  }
+
+  .lista-agendamentos-itens {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 620px) {
+  .lista-agendamentos {
+    width: 90%;
+  }
+
+  .lista-agendamentos-itens {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 621px) and (max-width: 750px) {
+  .lista-agendamentos {
+    width: 80%;
+  }
+
+  .lista-agendamentos-itens {
+    width: 60%;
+  }
+} 
+
+@media screen and (min-width: 751px) and (max-width: 1150px) {
+  .lista-agendamentos {
+    width: 80%;
+  }
+
+  .lista-agendamentos-itens {
+    width: 40%;
+  }
+}

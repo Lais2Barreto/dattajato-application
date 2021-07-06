@@ -1,0 +1,20 @@
+.HomeSobre-principal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lavagem1 {
+  width: 40%;
+  margin: 2rem auto;
+}
+.HomeSobre-principal > p {
+  width: 40%;
+  text-align: justify;
+}
+
+
+#last-paragraph {
+  margin-bottom: 4rem;
+}
