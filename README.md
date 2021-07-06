@@ -2,20 +2,21 @@
 Sistema web feito com react e node js para agendamento de serviço
 
 ## :rocket: Instalação
-Abra o terminal na pasta do projeto
+
+- Abra o terminal na pasta do projeto. 
 Exemplo: cd Downloads/dattajato--application-master
 
-Navegue ate a pasta client
+- Navegue ate a pasta client: cd client
 
-npm install
+- Execute o comando npm install
 
 Depois para iniciar o projeto:
-
-npm start
+- Execute o comando npm start
 
 
 Ao entrar no site, você pode acessar as outras páginas pelo menu de navegação, como também diretamente pela URL, escrevendo a rota, como demonstrado no vídeo abaixo.
 Ao digitar alguma rota não configurada, exibe página 404 Not Found.
+
 
 ## :computer: Demonstração 
 
