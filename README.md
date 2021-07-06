@@ -17,6 +17,6 @@ Ao digitar alguma rota não configurada, exibe página 404 Not Found.
 
 ## Demonstração
 
-[![Watch the video](https://img.youtu.be/rKwk5UIDClE/default.jpg)](https://youtu.be/rKwk5UIDClE)
+![Watch the video](https://img.youtu.be/rKwk5UIDClE/default.jpg)](https://youtu.be/rKwk5UIDClE)
 O projeto contém uma pasta chamada server, responsável pelo back-end, porém este está atualmente incompleto e não funcional.
 
