@@ -1,5 +1,5 @@
 # DattaJato :car: :sweat_drops:
-Sistema web feito com react e node js para agendamento de serviço
+Sistema web feito com React para agendamento de serviço
 
 ## :rocket: Instalação
 
